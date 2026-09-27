@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Տիգրան & Անի | Հարսանեկան Հրավիրատոմս</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Noto+Sans+Armenian:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <audio id="bg-music" loop src="music.mp3"></audio>
+  <button id="music-btn" class="music-toggle" onclick="toggleMusic()">🎵 Play</button>
+
+  <header class="hero">
+    <div class="hero-overlay">
+      <h1 class="main-title">Տիգրան <br> & <br> Անի</h1>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="section text-section">
+      <div class="watermark-title" data-text="Սիրելի Ընկերներ և Բարեկամներ">
+        Սիրելի Ընկերներ և Բարեկամներ
+      </div>
+      <p class="invitation-text">
+        Սիրով և մեծ ուրախությամբ հրավիրում ենք Ձեզ լինել մեր կյանքի ամենահիշարժան և լուսավոր օրվա մասնակիցը: 
+        Մենք երջանիկ ենք տեղեկացնելու, որ որոշել ենք մեր ճանապարհները միավորել և սկսել կյանքի նոր փուլ՝ ձեռք ձեռքի տված: 
+        Այդ օրը լի կլինի ջերմ զգացմունքներով, անկեղծ ժպիտներով ու գեղեցիկ պահերով, որոնք կցանկանայինք կիսել Ձեզ հետ: 
+        Ձեր ներկայությունը մեզ համար անչափ կարևոր է և կդարձնի մեր հարսանիքի օրն առավել ամբողջական ու հիշարժան:
+      </p>
+    </section>
+
+    <section class="section calendar-section">
+      <div class="calendar-wrapper">
+        <div class="calendar-image">
+          <img src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&w=600&q=80" alt="Hands">
+        </div>
+        <div class="calendar-content">
+          <div class="watermark-title" data-text="Պահպանիր Օրը">Պահպանիր Օրը</div>
+          <div class="month-name">Նոյեմբեր 2026</div>
+          <div class="calendar-grid">
+            <span>SUN</span><span>MON</span><span>TUE</span><span>WED</span><span>THU</span><span>FRI</span><span>SAT</span>
+            <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span>
+            <span class="heart-date">7</span>
+            <span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span>
+            <span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span>
+            <span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span>
+            <span>29</span><span>30</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="watermark-title" data-text="Մեր Կյանքի Կարևոր Օրը` Ձեր Ներկայությամբ">
+        Մեր Կյանքի Կարևոր Օրը` Ձեր Ներկայությամբ
+      </div>
+      <div class="countdown">
+        <div class="time-block"><span id="days" class="num">00</span><span class="label">Օր</span></div>
+        <span class="dots">:</span>
+        <div class="time-block"><span id="hours" class="num">00</span><span class="label">Ժամ</span></div>
+        <span class="dots">:</span>
+        <div class="time-block"><span id="minutes" class="num">00</span><span class="label">Րոպե</span></div>
+        <span class="dots">:</span>
+        <div class="time-block"><span id="seconds" class="num">00</span><span class="label">Վայրկյան</span></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="watermark-title" data-text="Ժամանակացույց">Ժամանակացույց</div>
+      <div class="timeline-grid">
+        <div class="timeline-item">
+          <div class="icon">🤵</div>
+          <div class="time">11:00</div>
+          <div class="event-title">Փեսայի տուն</div>
+          <div class="address">ք. Վանաձոր, Չուխաջյան 30</div>
+        </div>
+        <div class="timeline-item">
+          <div class="icon">👰</div>
+          <div class="time">12:00</div>
+          <div class="event-title">Հարսի տուն</div>
+          <div class="address">գ. Դարպաս, 1-ին փոխ., տուն 15</div>
+        </div>
+        <div class="timeline-item">
+          <div class="icon">💍</div>
+          <div class="time">14:00</div>
+          <div class="event-title">Պսակադրություն</div>
+          <div class="address">Սուրբ Գրիգոր Նարեկացի եկեղեցի</div>
+        </div>
+        <div class="timeline-item">
+          <div class="icon">🍽️</div>
+          <div class="time">17:00</div>
+          <div class="event-title highlight">Հարսանյաց Հանդիսություն</div>
+          <div class="address">«Milagro» հանդիսությունների սրահ</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="watermark-title" data-text="Տեղակայում">Տեղակայում</div>
+      <div class="map-grid">
+        
+        <div class="map-box">
+          <div class="map-title">Սուրբ Գրիգոր Նարեկացի եկեղեցի</div>
+          <div class="iframe-container">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.697486776101!2d44.4925!3d40.8078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4041b9e28f3bb2ab%3A0xb35a09f30206bdf5!2sSt.%20Gregory%20of%20Narek%20Cathedral!5e0!3m2!1sen!2s!4v1700000000000" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+          <a href="https://maps.google.com/?q=St.+Gregory+of+Narek+Cathedral,+Vanadzor" target="_blank" class="map-link-btn">📍 Բացել Քարտեզով</a>
+        </div>
+
+        <div class="map-box">
+          <div class="map-title">«Milagro» հանդիսությունների սրահ</div>
+          <div class="iframe-container">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.500000000000!2d44.4833!3d40.8100!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4041b9e000000001%3A0x0!2sMilagro+Restaurant+Vanadzor!5e0!3m2!1sen!2s!4v1700000000000" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+          <a href="https://maps.google.com/?q=Milagro+Vanadzor" target="_blank" class="map-link-btn">📍 Բացել Քարտեզով</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section footer-section">
+      <div class="footer-wrapper">
+        <div class="footer-image">
+          
+          <img src="mm.jpg">
+        </div>
+        <div class="footer-text-box">
+          <div class="watermark-title" data-text="Խնդրում ենք Նախապես Տեղեկացնել Ձեր Մասնակցության Մասին">
+            Խնդրում ենք Նախապես Տեղեկացնել Ձեր Մասնակցության Մասին
+          </div>
+          <p class="footer-subtext">Սիրով կսպասենք Ձեզ մեր տոնական օրը:</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
